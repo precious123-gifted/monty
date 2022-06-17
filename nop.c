@@ -1,14 +1,15 @@
-#include "monty.h"
+#include "main.h"
+
 
 /**
- * m_nop - no operation performed
- * @stack: double pointer to head of stack
- * @line_number: line number of current operation
- *
+ * _nop - function
+ * @pile: the pile
+ * @line_number: the number
  * Return: void
  */
-void m_nop(stack_t **stack, unsigned int line_number)
+
+void  _nop(stack_t **pile, unsigned  int line_number)
 {
-	(void)stack;
-	(void)line_number;
+	UNUSED(pile);
+	UNUSED(line_number);
 }
